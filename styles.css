@@ -1,0 +1,31 @@
+body {
+  background: rgb(0, 0, 0);
+  display: grid;
+  place-items: center;
+}
+.rows{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col{
+  margin: 5px;
+
+}
+.element{
+  background: orange;
+  width: 8px;
+  height: 8px;
+}
+.text{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
